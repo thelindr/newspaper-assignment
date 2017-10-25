@@ -1,6 +1,6 @@
 # Sprint 1: Newspaper Assignment
 
-Today's assignment is to create a classig newspaper grid that lists articles that is responsive and works both for desktop, tablet and mobile. We are going to use the webpage [kit.se](https://kit.se/) and make our version of their grid, for desktop, tablet and phone. The section we will focus on looks like this on desktop: 
+Today's assignment is to create a classic newspaper grid that lists articles that is responsive and works both for desktop, tablet and mobile. We are going to use the webpage [kit.se](https://kit.se/) and make our version of their grid, for desktop, tablet and phone. The section we will focus on looks like this on desktop: 
 
 ![Kit.se startpage grid](https://github.com/Technigo/assignment-news-paper/blob/master/kit-grid.png)
 
