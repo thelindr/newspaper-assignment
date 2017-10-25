@@ -13,7 +13,7 @@ Second, inspect [kit.se](https://kit.se/) in the inspector and look how the page
 **Each article should include:**
 * A background image
 * A headline
-* An author
+* An author and pubishing date
 * A link to the real article
 
 Don't worry about the background color behind the headline, let's leave that for the streach goals. 
