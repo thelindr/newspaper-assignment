@@ -2,14 +2,14 @@
 
 Today's assignment is to create a classig newspaper grid that lists articles that is responsive and works both for desktop, tablet and mobile. We are going to use the webpage [kit.se](https://kit.se/) and make our version of their grid, for desktop, tablet and phone. The section we will focus on looks like this on desktop: 
 
-
+![Kit.se startpage grid](https://developers.google.com/web/tools/chrome-devtools/device-mode/)
 
 
 ## How to complete this assignment
 
 First, read more about `media queries` – you have some great reads listed below. 
 
-Second, inspect Kit's webpage in the inspector and look how the page changes for mobile and tablet. Make a plan of what you have to change for each screen size. [Here's a great instruction on how to do that] (https://developers.google.com/web/tools/chrome-devtools/device-mode/) Make a note on each item listed below and how that changes when you switch screen size. 
+Second, inspect Kit's webpage in the inspector and look how the page changes for mobile and tablet. [Here's a great instruction on how to do that](https://developers.google.com/web/tools/chrome-devtools/device-mode/) Make a plan and note on each item listed below, how that changes when you change screen size. 
 
 **Each article should include:**
 * A background image
@@ -41,5 +41,5 @@ After completing this assignment, you should be comfortable in using media queri
 Done with the main task? Here's some ideas for things to continue with:
 
 1. Re-arrange the layout on the cards so that the author is above the title on mobile – but keep the existing layout for the other screen sizes. 
-1. Implement the background color of the headlines as on kit.se. This is a little tricky but here's a great guide[here's a great guide](https://css-tricks.com/multi-line-padded-text/) to multiple approaches.
+1. Implement the background color of the headlines as on kit.se. This is a little tricky but [here's a great guide](https://css-tricks.com/multi-line-padded-text/) to multiple approaches. We have faith in you! 
 1. Implement the same effect on hover as kit.se. 
