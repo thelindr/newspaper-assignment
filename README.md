@@ -24,6 +24,7 @@ To complete this assignment, you need to fork this repository, add your code to 
 
 ### :books: Reading List
 
+* [W3Schools — Responsive Web Design](https://www.w3schools.com/html/html_responsive.asp)
 * [CSS-tricks – Media Queries](https://css-tricks.com/css-media-queries/)
 * [MDN – Media Queries](https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries)
 
