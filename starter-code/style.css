@@ -22,6 +22,7 @@ header {
   width: 60px;
 }
 
+
 .box {
   width: 400px;
   height: 400px;
@@ -49,14 +50,19 @@ h1 {
 }
 
 @media (max-width: 767px) {
+  .articles {
+    margin: 23%;
+  }
 .box {
-  position: relative;
-  left: 25%;
+  /*position: relative;
+  left: 25%;*/
   padding: 20px;
 }
   h1 {
     left: 20px;
   }
+}
+
 
 @media only screen and (max-width: 1023px)
 .box {
