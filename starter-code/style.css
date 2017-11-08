@@ -78,9 +78,15 @@ h1 {
   /*position: relative;
   left: 25%;*/
   padding: 20px;
+
 }
   h1 {
     left: 20px;
+    font-size: 1em;
+    bottom: 28px;
+  }
+  .box p{
+    font-size: 0.5em;
   }
 }
 
@@ -95,7 +101,7 @@ h1 {
     margin: 10px;
     box-sizing: border-box;
     display: inline-block;
-  padding: 3%;
+    padding: 3%;
   }
   .box img {
     object-fit: cover;
@@ -105,12 +111,12 @@ h1 {
   }
   h1 {
     padding: 2px;
-    bottom: 20px;
-    font-size: 19px;
+    bottom: 15px;
+    font-size: 0.8em;
   }
 .box p {
     bottom: -1px;
-    font-size: 10px;
+    font-size: 0.1em;
 }
   .articles {
     width: 94%;
