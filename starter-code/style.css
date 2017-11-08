@@ -25,11 +25,11 @@ header {
 .box {
   width: 400px;
   height: 400px;
-  /*background: url(https://www.rd.com/wp-content/uploads/sites/2/2016/02/06-train-cat-shake-hands.jpg);*/
-  /*img-size: cover;*/
   position: relative;
   float: left;
   margin: 10px;
+  box-sizing: border-box;
+  display: block;
 }
 
 .box img {
@@ -44,14 +44,19 @@ h1 {
   display: inline;
   padding: 5px;
   position: absolute;
-  bottom: 0;
+  bottom: 15px;
   margin: 0;
 }
 
-@media only screen and (max-width: 767px)
+@media (max-width: 767px) {
 .box {
+  position: relative;
+  left: 25%;
   padding: 20px;
 }
+  h1 {
+    left: 20px;
+  }
 
 @media only screen and (max-width: 1023px)
 .box {
