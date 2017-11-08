@@ -28,10 +28,12 @@ header {
   /*background: url(https://www.rd.com/wp-content/uploads/sites/2/2016/02/06-train-cat-shake-hands.jpg);*/
   /*img-size: cover;*/
   position: relative;
+  float: left;
+  margin: 10px;
 }
 
 .box img {
-  /*object-fit: cover;*/
+  object-fit: cover;
   position: relative;
   width: 400px;
   height: 400px;
@@ -39,7 +41,6 @@ header {
 
 h1 {
   background: white;
-  opacity: 0.6;
   display: inline;
   padding: 5px;
   position: absolute;
