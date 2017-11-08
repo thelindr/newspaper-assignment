@@ -4,7 +4,9 @@ html {
 }
 
 header {
-  padding: 20px;
+  padding: 25px;
+  margin: auto;
+  width: 88%;
 }
 
 .logo {
@@ -22,6 +24,12 @@ header {
   width: 60px;
 }
 
+.articles {
+  margin: auto;
+  width: 90%;
+  padding: 20px;
+}
+
 
 .box {
   width: 400px;
@@ -30,7 +38,7 @@ header {
   float: left;
   margin: 10px;
   box-sizing: border-box;
-  display: block;
+  display: inline-block;
 }
 
 .box img {
@@ -45,13 +53,26 @@ h1 {
   display: inline;
   padding: 5px;
   position: absolute;
-  bottom: 15px;
+  bottom: 35px;
   margin: 0;
+  font-family: 'Helvetica';
+  font-size: 30px;
 }
+
+.box p {
+  background: white;
+  display: inline;
+  padding: 5px;
+  position: absolute;
+  bottom: 10px;
+  margin: 0;
+  font-family: 'Helvetica';
+  font-size: 15px;
+  }
 
 @media (max-width: 767px) {
   .articles {
-    margin: 23%;
+    width: 53%;
   }
 .box {
   /*position: relative;
@@ -64,12 +85,34 @@ h1 {
 }
 
 
-@media only screen and (max-width: 1023px)
-.box {
-  padding: 3%;
-}
+@media (min-width:768px) and (max-width: 1023px) {
 
-@media only screen and (min-width: 1024px)
 .box {
-  padding: 0%;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    float: left;
+    margin: 10px;
+    box-sizing: border-box;
+    display: inline-block;
+  padding: 3%;
+  }
+  .box img {
+    object-fit: cover;
+    position: relative;
+    width: 200px;
+    height: 200px;
+  }
+  h1 {
+    padding: 2px;
+    bottom: 20px;
+    font-size: 19px;
+  }
+.box p {
+    bottom: -1px;
+    font-size: 10px;
+}
+  .articles {
+    width: 94%;
+  }
 }
